@@ -31,11 +31,11 @@ export default function Curriculo() {
     AOS.init();
   }, []);
 
-const pathCurriculo = {
-  position: 'absolute',
-  opacity: '0.02',
-  left: '-5px',
-}
+  const pathCurriculo = {
+    position: "absolute",
+    opacity: "0.02",
+    left: "-5px",
+  };
 
   return (
     <div className="section cv" id="curriculo">
@@ -49,7 +49,11 @@ const pathCurriculo = {
               Educação
             </h3>
             <div class="cv-item" data-aos="fade-up">
-            <img alt="..." style={pathCurriculo} src={require("assets/img/path1.png")} />
+              <img
+                alt="..."
+                style={pathCurriculo}
+                src={require("assets/img/path1.png")}
+              />
               <h4>Análise e Desenvolvimento de Sistemas</h4>
               <h5>2022-2024</h5>
               <p>
@@ -91,7 +95,11 @@ const pathCurriculo = {
               </p>
             </div>
             <div class="cv-item" data-aos="fade-up">
-            <img alt="..." style={pathCurriculo} src={require("assets/img/path2.png")} />
+              <img
+                alt="..."
+                style={pathCurriculo}
+                src={require("assets/img/path2.png")}
+              />
               <h4>Técnico em Mecâtronica</h4>
               <h5>2015-2016</h5>
               <p>
@@ -120,6 +128,11 @@ const pathCurriculo = {
                 equipes de RH e oferecer inteligência de dados que facilitam as
                 tomadas de decisões realizadas pela área.
               </p>
+              <p>
+                Responsável pelo desenvolvimento geral da plataforma, desde a
+                visão do colaborador até as rotinas utilizadas pelo DP/RH na
+                gestão.
+              </p>
             </div>
             <div class="cv-item" data-aos="fade-up">
               <h4>Analista de Sistemas Júnior</h4>
@@ -135,7 +148,11 @@ const pathCurriculo = {
               </p>
             </div>
             <div class="cv-item" data-aos="fade-up">
-            <img alt="..." style={pathCurriculo} src={require("assets/img/path3.png")} />
+              <img
+                alt="..."
+                style={pathCurriculo}
+                src={require("assets/img/path3.png")}
+              />
               <h4>Gerente de tecnologia</h4>
               <h5>Março/2020 - Agosto/2021</h5>
               <p>
