@@ -30,7 +30,6 @@ export default function Index() {
           <Navbars />
           <Habilidades />
           <Curriculo />
-          <Projetos />
         </div>
         <Footer />
       </div>
