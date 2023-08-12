@@ -7,7 +7,6 @@ import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
 import Sobre from "views/IndexSections/sobre_mim";
-import Navbars from "views/IndexSections/Navbars.js";
 import Curriculo from "views/IndexSections/curriculo.js";
 import Habilidades from "views/IndexSections/habilidades.js";
 import Projetos from "views/IndexSections/projetos.js";
@@ -27,7 +26,6 @@ export default function Index() {
         <PageHeader />
         <div className="main">
           <Sobre />
-          <Navbars />
           <Habilidades />
           <Curriculo />
         </div>
