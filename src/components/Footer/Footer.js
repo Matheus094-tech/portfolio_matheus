@@ -18,23 +18,19 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <div className="btn-wrapper profile">
-              <Button
-                className="btn-icon btn-neutral btn-round btn-simple"
-                color="default"
+            <div class="d-flex justify-content-center">
+              <a
                 href="https://www.linkedin.com/in/matheussouzabarbosa/"
-                id="tooltip318450378"
-                target="_blank">
+                target="_blank"
+                class="iconeFooter">
                 <i className="fab fa-linkedin" />
-              </Button>
-              <Button
-                className="btn-icon btn-neutral btn-round btn-simple"
-                color="default"
+              </a>
+              <a
                 href="https://github.com/Matheus094-tech"
-                id="tooltip318450378"
-                target="_blank">
+                target="_blank"
+                class="iconeFooter">
                 <i className="fab fa-github" />
-              </Button>
+              </a>
             </div>
           </Col>
         </Row>

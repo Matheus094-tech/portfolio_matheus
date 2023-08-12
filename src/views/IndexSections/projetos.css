@@ -81,3 +81,13 @@
 .iconeBotao:hover {
   color: #5e72e4;
 }
+
+.iconeFooter {
+  font-size: 50px;
+  color: white;
+}
+
+.iconeFooter:hover {
+  color: #5e72e4;
+}
+
