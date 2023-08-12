@@ -16,29 +16,7 @@ export default function PageHeader() {
       <Container>
         <div className="content-center brand">
           <h1 className="h1-seo">Matheus Barbosa</h1>
-          <TypeAnimation
-            preRenderFirstString={true}
-            sequence={[
-              "Full Stack Developer",
-              1500,
-              "",
-              500,
-              "Full",
-              500,
-              "Full Stack",
-              500,
-              "Full Stack Developer",
-              500,
-              "Full Stack",
-              500,
-              "Full",
-              500,
-              "",
-              500,
-            ]}
-            wrapper="h2"
-            repeat={Infinity}
-          />
+         
         </div>
       </Container>
     </div>
