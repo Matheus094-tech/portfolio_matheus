@@ -64,16 +64,17 @@ export default function IndexNavbar() {
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
             <span>Matheus Barbosa </span>
           </NavbarBrand>
-          <Nav aria-expanded={collapseOpen}
-            className="navbar-toggler navbar-toggler" navbar>
+          <Nav
+            aria-expanded={collapseOpen}
+            className="navbar-toggler navbar-toggler"
+            navbar>
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
                 href="https://www.linkedin.com/in/matheussouzabarbosa/"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="LinkedIn"
-              >
+                title="LinkedIn">
                 <i className="fab fa-linkedin" />
               </NavLink>
               <NavLink
@@ -81,28 +82,24 @@ export default function IndexNavbar() {
                 href="https://github.com/Matheus094-tech"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Github"
-              >
+                title="Github">
                 <i className="fab fa-github" />
               </NavLink>
             </NavItem>
           </Nav>
-
         </div>
         <Collapse
           className={"justify-content-end " + collapseOut}
           navbar
-          isOpen={collapseOpen}
-        >
+          isOpen={collapseOpen}>
           <Nav navbar>
             <NavItem className="p-0">
               <NavLink
-           data-placement="bottom"
-           href="https://www.linkedin.com/in/matheussouzabarbosa/"
-           rel="noopener noreferrer"
-           target="_blank"
-           title="LinkedIn"
-              >
+                data-placement="bottom"
+                href="https://www.linkedin.com/in/matheussouzabarbosa/"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="LinkedIn">
                 <i className="fab fa-facebook-square" />
                 <p className="">LinkedIn</p>
               </NavLink>
@@ -113,8 +110,7 @@ export default function IndexNavbar() {
                 href="https://github.com/Matheus094-tech"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Github"
-              >
+                title="Github">
                 <i className="fab fa-github" />
                 <p className="">Github</p>
               </NavLink>

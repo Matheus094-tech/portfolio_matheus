@@ -7,7 +7,6 @@ import { Button, Container, Row, Col } from "reactstrap";
 export default function Projetos() {
   return (
     <div className="section" id="projetos">
-
       <Container>
         <Row>
           <Col md="12">

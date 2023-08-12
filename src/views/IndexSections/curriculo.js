@@ -32,6 +32,7 @@ export default function Curriculo() {
   }, []);
   return (
     <div className="section cv" id="curriculo">
+      
       <Container>
         <h2 data-aos="fade-up" className="title text-white">
           Curriculo
@@ -67,11 +68,7 @@ export default function Curriculo() {
                 ensinado desde habilidades técnicas até mesmo comportamentais.
               </p>
             </div>
-            <img
-              alt="..."
-              className="path"
-              src={require("assets/img/path2.png")}
-            />
+
             <div class="cv-item" data-aos="fade-up">
               <h4>Engenharia Civil</h4>
               <h5>2017-2022</h5>
@@ -101,18 +98,14 @@ export default function Curriculo() {
               </p>
             </div>
           </Col>
-         
+
           <Col md="6">
             <h3 class="text-white mt-3" data-aos="fade-up">
               Profissional
             </h3>
             <div class="cv-item" data-aos="fade-up">
               <h4>Analista de Sistemas Júnior</h4>
-              <img
-                alt="..."
-                className="path"
-                src={require("assets/img/path4.png")}
-              />
+
               <h5>Fevereiro/2022 - Atualmente</h5>
               <p>
                 <em>bRHain</em>
@@ -156,11 +149,7 @@ export default function Curriculo() {
                 ingressar 100% na área de desenvolvimento.
               </p>
             </div>
-            <img
-              alt="..."
-              className="path"
-              src={require("assets/img/path5.png")}
-            />
+
             <div class="cv-item" data-aos="fade-up">
               <h4>Gerente técnico de TI</h4>
               <h5>Agosto/2016 - Fevereiro/2020</h5>
