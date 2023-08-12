@@ -38,6 +38,7 @@ export default function Curriculo() {
   };
 
   return (
+    
     <div className="section cv" id="curriculo">
       <Container>
         <h2 data-aos="fade-up" className="title text-white">

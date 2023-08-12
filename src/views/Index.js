@@ -22,15 +22,16 @@ export default function Index() {
   return (
     <>
       <IndexNavbar />
-    
+      <div className="wrapper">
         <PageHeader />
         <div className="main">
           <Sobre />
           <Habilidades />
           <Curriculo />
+          <Projetos />
         </div>
         <Footer />
-   
+      </div>
     </>
   );
 }
