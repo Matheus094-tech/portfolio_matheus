@@ -1,17 +1,9 @@
 {
-  "name": "blk-design-system-react",
+  "name": "portfolio_matheusreact",
   "version": "1.2.2",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "Adaptação de template público do Creative Tim",
   "main": "index.js",
-  "author": "Creative Tim",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
-  },
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
-  },
+  "author": "Matheus Barbosa",
   "keywords": [
     "react",
     "reactjs",
