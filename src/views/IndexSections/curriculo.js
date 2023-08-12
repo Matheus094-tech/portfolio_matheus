@@ -44,7 +44,7 @@ const pathCurriculo = {
           Curriculo
         </h2>
         <Row>
-          <Col md="6">
+          <Col md="6 mt-5">
             <h3 class="text-white" data-aos="fade-up">
               Educação
             </h3>
@@ -105,7 +105,7 @@ const pathCurriculo = {
               </p>
             </div>
           </Col>
-          <Col md="6">
+          <Col md="6 mt-5">
             <h3 class="text-white" data-aos="fade-up">
               Profissional
             </h3>
@@ -136,7 +136,7 @@ const pathCurriculo = {
             </div>
             <div class="cv-item" data-aos="fade-up">
             <img alt="..." style={pathCurriculo} src={require("assets/img/path3.png")} />
-              <h4>Co-fundador</h4>
+              <h4>Gerente de tecnologia</h4>
               <h5>Março/2020 - Agosto/2021</h5>
               <p>
                 <em>Stark Tecnologia</em>
