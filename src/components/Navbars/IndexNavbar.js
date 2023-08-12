@@ -43,8 +43,8 @@ export default function IndexNavbar() {
     }
   };
   const toggleCollapse = () => {
-    document.documentElement.classList.toggle("nav-open");
-    setCollapseOpen(!collapseOpen);
+    //document.documentElement.classList.toggle("nav-open");
+    //setCollapseOpen(!collapseOpen);
   };
   const onCollapseExiting = () => {
     setCollapseOut("collapsing-out");
@@ -58,12 +58,35 @@ export default function IndexNavbar() {
       .scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
+    <Navbar className={"fixed-top " + color} color-on-scroll="100">
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
             <span>Matheus Barbosa </span>
           </NavbarBrand>
+          <Nav
+            aria-expanded={collapseOpen}
+            className="navbar-toggler navbar-toggler"
+            navbar>
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                href="https://www.linkedin.com/in/matheussouzabarbosa/"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="LinkedIn">
+                <i className="fab fa-linkedin" />
+              </NavLink>
+              <NavLink
+                data-placement="bottom"
+                href="https://github.com/Matheus094-tech"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Github">
+                <i className="fab fa-github" />
+              </NavLink>
+            </NavItem>
+          </Nav>
         </div>
         <Collapse
           className={"justify-content-end " + collapseOut}

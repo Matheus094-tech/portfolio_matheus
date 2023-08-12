@@ -31,7 +31,7 @@ useEffect(() => {
 AOS.init();
 },  [])
   return (
-    <div className="section" id="curriculo">
+    <div className="section cv" id="curriculo">
       <Container>
         <h2 data-aos="fade-up" className="title text-white">Curriculo</h2>
     <Row>
