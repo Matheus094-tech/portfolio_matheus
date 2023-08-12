@@ -34,31 +34,16 @@ export default function IndexNavbar() {
       document.documentElement.scrollTop > 99 ||
       document.body.scrollTop > 99
     ) {
-      setColor("bg-info container");
+      setColor("bg-info");
     } else if (
       document.documentElement.scrollTop < 100 ||
       document.body.scrollTop < 100
     ) {
-      setColor("navbar-transparent container");
+      setColor("navbar-transparent");
     }
   };
-  const toggleCollapse = () => {
-    //document.documentElement.classList.toggle("nav-open");
-    //setCollapseOpen(!collapseOpen);
-  };
-  const onCollapseExiting = () => {
-    setCollapseOut("collapsing-out");
-  };
-  const onCollapseExited = () => {
-    setCollapseOut("");
-  };
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
   return (
-    <Navbar className={"fixed-top " + color} color-on-scroll="100">
+    <Navbar className={"fixed-top " + color} >
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
