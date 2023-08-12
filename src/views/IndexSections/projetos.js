@@ -150,7 +150,7 @@ export default function Examples() {
           Meus projetos
         </h2>
         <Row>
-          <Col md="4 marginCard">
+          <Col data-aos="fade-down" md="4 marginCard">
             <div className="wrapperTest">
               <div className="single-card">
                 <div className="front">
@@ -190,7 +190,7 @@ export default function Examples() {
               </a>
             </div>
           </Col>
-          <Col md="4 marginCard">
+          <Col data-aos="fade-down" md="4 marginCard">
             <div className="wrapperTest">
               <div className="single-card">
                 <div className="front">
