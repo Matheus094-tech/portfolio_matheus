@@ -62,8 +62,7 @@ export default function ExamplesNavbar() {
           <button
             aria-expanded={collapseOpen}
             className="navbar-toggler navbar-toggler"
-            onClick={toggleCollapse}
-          >
+            onClick={toggleCollapse}>
             <span className="navbar-toggler-bar bar1" />
             <span className="navbar-toggler-bar bar2" />
             <span className="navbar-toggler-bar bar3" />
@@ -74,8 +73,7 @@ export default function ExamplesNavbar() {
           navbar
           isOpen={collapseOpen}
           onExiting={onCollapseExiting}
-          onExited={onCollapseExited}
-        >
+          onExited={onCollapseExited}>
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
@@ -87,8 +85,7 @@ export default function ExamplesNavbar() {
                 <button
                   aria-expanded={collapseOpen}
                   className="navbar-toggler"
-                  onClick={toggleCollapse}
-                >
+                  onClick={toggleCollapse}>
                   <i className="tim-icons icon-simple-remove" />
                 </button>
               </Col>
@@ -101,8 +98,7 @@ export default function ExamplesNavbar() {
                 href="https://twitter.com/CreativeTim"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Follow us on Twitter"
-              >
+                title="Follow us on Twitter">
                 <i className="fab fa-twitter" />
                 <p className="d-lg-none d-xl-none">Twitter</p>
               </NavLink>
@@ -113,8 +109,7 @@ export default function ExamplesNavbar() {
                 href="https://www.facebook.com/CreativeTim"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Like us on Facebook"
-              >
+                title="Like us on Facebook">
                 <i className="fab fa-facebook-square" />
                 <p className="d-lg-none d-xl-none">Facebook</p>
               </NavLink>
@@ -125,8 +120,7 @@ export default function ExamplesNavbar() {
                 href="https://www.instagram.com/CreativeTimOfficial"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Follow us on Instagram"
-              >
+                title="Follow us on Instagram">
                 <i className="fab fa-instagram" />
                 <p className="d-lg-none d-xl-none">Instagram</p>
               </NavLink>
@@ -136,8 +130,7 @@ export default function ExamplesNavbar() {
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
-                href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-examples-navbar-upgrade-pro"
-              >
+                href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-examples-navbar-upgrade-pro">
                 <i className="tim-icons icon-spaceship" /> Upgrade to PRO
               </Button>
             </NavItem>

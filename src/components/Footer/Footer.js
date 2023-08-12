@@ -19,25 +19,22 @@ export default function Footer() {
         <Row>
           <Col md="3">
             <div className="btn-wrapper profile">
-            <Button
+              <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
                 href="https://www.linkedin.com/in/matheussouzabarbosa/"
                 id="tooltip318450378"
-                target="_blank"
-              >
-           <i className="fab fa-linkedin" />
+                target="_blank">
+                <i className="fab fa-linkedin" />
               </Button>
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
                 href="https://github.com/Matheus094-tech"
                 id="tooltip318450378"
-                target="_blank"
-              >
-          <i className="fab fa-github" />
+                target="_blank">
+                <i className="fab fa-github" />
               </Button>
-             
             </div>
           </Col>
         </Row>

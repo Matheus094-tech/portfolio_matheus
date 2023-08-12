@@ -6,10 +6,11 @@ import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
-import Basics from "views/IndexSections/sobre_mim";
+import Sobre from "views/IndexSections/sobre_mim";
 import Navbars from "views/IndexSections/Navbars.js";
-import Pagination from "views/IndexSections/habilidades.js";
-import Projects from "views/IndexSections/projetos.js"
+import Curriculo from "views/IndexSections/curriculo.js";
+import Habilidades from "views/IndexSections/habilidades.js";
+import Projetos from "views/IndexSections/projetos.js";
 
 export default function Index() {
   React.useEffect(() => {
@@ -25,10 +26,11 @@ export default function Index() {
       <div className="wrapper">
         <PageHeader />
         <div className="main">
-          <Basics />
+          <Sobre />
           <Navbars />
-          <Pagination />
-          <Projects />
+          <Habilidades />
+          <Curriculo />
+          <Projetos />
         </div>
         <Footer />
       </div>

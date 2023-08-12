@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 
-export default function Examples() {
+export default function Projetos() {
   return (
-    <div className="section section-examples">
+    <div className="section" id="projetos">
 
       <Container>
         <Row>
           <Col md="12">
-          <h3 className="mb-4 text-white">Meus projetos</h3>
+          <h2 className="title text-white">Meus projetos</h2>
           </Col>
         </Row>
       </Container>
