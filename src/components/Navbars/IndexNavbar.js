@@ -42,26 +42,67 @@ export default function IndexNavbar() {
       setColor("navbar-transparent");
     }
   };
+  const toggleCollapse = () => {
+    document.documentElement.classList.toggle("nav-open");
+    setCollapseOpen(!collapseOpen);
+  };
+  const onCollapseExiting = () => {
+    setCollapseOut("collapsing-out");
+  };
+  const onCollapseExited = () => {
+    setCollapseOut("");
+  };
+  const scrollToDownload = () => {
+    document
+      .getElementById("download-section")
+      .scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <Navbar className={"fixed-top " + color} color-on-scroll="100">
+    <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
             <span>Matheus Barbosa </span>
           </NavbarBrand>
-        </div>
-        <Collapse
-          className={"justify-content-end " + collapseOut}
-          navbar
-          isOpen={collapseOpen}>
-          <Nav navbar>
+          <Nav aria-expanded={collapseOpen}
+            className="navbar-toggler navbar-toggler" navbar>
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
                 href="https://www.linkedin.com/in/matheussouzabarbosa/"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="LinkedIn">
+                title="LinkedIn"
+              >
+                <i className="fab fa-linkedin" />
+              </NavLink>
+              <NavLink
+                data-placement="bottom"
+                href="https://github.com/Matheus094-tech"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Github"
+              >
+                <i className="fab fa-github" />
+              </NavLink>
+            </NavItem>
+          </Nav>
+
+        </div>
+        <Collapse
+          className={"justify-content-end " + collapseOut}
+          navbar
+          isOpen={collapseOpen}
+        >
+          <Nav navbar>
+            <NavItem className="p-0">
+              <NavLink
+           data-placement="bottom"
+           href="https://www.linkedin.com/in/matheussouzabarbosa/"
+           rel="noopener noreferrer"
+           target="_blank"
+           title="LinkedIn"
+              >
                 <i className="fab fa-facebook-square" />
                 <p className="">LinkedIn</p>
               </NavLink>
@@ -72,7 +113,8 @@ export default function IndexNavbar() {
                 href="https://github.com/Matheus094-tech"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Github">
+                title="Github"
+              >
                 <i className="fab fa-github" />
                 <p className="">Github</p>
               </NavLink>

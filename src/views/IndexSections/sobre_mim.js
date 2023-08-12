@@ -1,15 +1,12 @@
 import React, { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
 export default function Sobre() {
   const newLocal = "https://brhain.com.br/";
-  useEffect(() => {
-    AOS.init();
-  }, []);
+
   return (
     <div className="section" id="sobre-mim">
       <Container>
