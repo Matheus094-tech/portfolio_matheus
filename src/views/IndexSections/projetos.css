@@ -3,10 +3,6 @@
   position: relative;
 }
 
-.marginCard {
-  margin-top: 70px;
-}
-
 .wrapperTest {
   perspective: 900px;
 }
@@ -48,17 +44,20 @@
   top: 35px;
 }
 
-.content h2{
-color: white;
-font-weight: bold;
-text-align: center
+.content h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 
-.content p{
-    color: white;
-    font-weight: 400;  
-    text-align: center
+.content p {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 
 .back img {
   opacity: 0.4;
@@ -70,15 +69,15 @@ text-align: center
 }
 
 .front img {
-    width: 400px !important;
-    height: 250px !important;
-  }
-
-.iconeBotao{
-    font-size: 50px;
-    color: white
+  width: 400px !important;
+  height: 250px !important;
 }
 
-.iconeBotao:hover{
-    color: #5e72e4
+.iconeBotao {
+  font-size: 50px;
+  color: white;
+}
+
+.iconeBotao:hover {
+  color: #5e72e4;
 }
