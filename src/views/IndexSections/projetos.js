@@ -151,7 +151,7 @@ export default function Examples() {
         </h2>
         <Row>
           <Col data-aos="fade-down" md="4 marginCard">
-            <div className="wrapperTest">
+            <div data-aos="fade-down" className="wrapperTest">
               <div className="single-card">
                 <div className="front">
                   <img
@@ -191,7 +191,7 @@ export default function Examples() {
             </div>
           </Col>
           <Col data-aos="fade-down" md="4 marginCard">
-            <div className="wrapperTest">
+            <div data-aos="fade-down" className="wrapperTest">
               <div className="single-card">
                 <div className="front">
                   <img
