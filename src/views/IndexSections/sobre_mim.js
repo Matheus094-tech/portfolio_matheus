@@ -32,7 +32,7 @@ export default function Sobre() {
                   href="https://www.credly.com/badges/91e81db6-d3ff-4bcd-a931-9eacbfb6874e"
                   target="_blank"
                   class="fw-lighter text-decoration-none link-dark">
-                  AWS Cloud Practitioner
+                   AWS Cloud Practitioner
                 </a>
               </li>
               <li data-aos="fade-up" className="py-2">
@@ -41,7 +41,7 @@ export default function Sobre() {
                   href={newLocal}
                   target="_blank"
                   class="fw-lighter text-decoration-none link-dark">
-                  bRHain
+                   bRHain
                 </a>
               </li>
               <li data-aos="fade-up" className="py-2">
