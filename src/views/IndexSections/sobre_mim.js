@@ -5,7 +5,8 @@ import React, { useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 
 export default function Sobre() {
-  const newLocal = "https://brhain.com.br/";
+  const bRHain = "https://brhain.com.br/";
+  const badgeAws = "https://www.credly.com/badges/91e81db6-d3ff-4bcd-a931-9eacbfb6874e";
 
   return (
     <div className="section" id="sobre-mim">
@@ -27,21 +28,21 @@ export default function Sobre() {
                 Estado: <span class="fw-lighter">São Paulo</span>
               </li>
               <li data-aos="fade-up" className="py-2">
-                Certificação mais recente: 
+                Certificação mais recente: <></>
                 <a
-                  href="https://www.credly.com/badges/91e81db6-d3ff-4bcd-a931-9eacbfb6874e"
+                  href={badgeAws}
                   target="_blank"
                   class="fw-lighter text-decoration-none link-dark">
-                   AWS Cloud Practitioner
+                  AWS Cloud Practitioner
                 </a>
               </li>
               <li data-aos="fade-up" className="py-2">
-                Trabalho: 
+                Trabalho: <></>
                 <a
-                  href={newLocal}
+                  href={bRHain}
                   target="_blank"
                   class="fw-lighter text-decoration-none link-dark">
-                   bRHain
+                  bRHain
                 </a>
               </li>
               <li data-aos="fade-up" className="py-2">
