@@ -21,7 +21,7 @@ export default function Sobre() {
           <Col md="12">
             <ul className="list-unstyled mt-2">
               <li data-aos="fade-up" className="py-2">
-                Idade: <span class="fw-lighter">24</span>
+                Idade: <span class="fw-lighter">24 anos</span>
               </li>
               <li data-aos="fade-up" className="py-2">
                 Estado: <span class="fw-lighter">São Paulo</span>
