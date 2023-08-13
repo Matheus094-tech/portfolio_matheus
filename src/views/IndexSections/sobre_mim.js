@@ -20,14 +20,14 @@ export default function Sobre() {
         <Row>
           <Col md="12">
             <ul className="list-unstyled mt-2">
-            <li data-aos="fade-up" className="py-2">
+              <li data-aos="fade-up" className="py-2">
                 Idade: <span class="fw-lighter">24</span>
               </li>
               <li data-aos="fade-up" className="py-2">
                 Estado: <span class="fw-lighter">São Paulo</span>
               </li>
               <li data-aos="fade-up" className="py-2">
-                Certificação mais recente:
+                Certificação mais recente: 
                 <a
                   href="https://www.credly.com/badges/91e81db6-d3ff-4bcd-a931-9eacbfb6874e"
                   target="_blank"
@@ -36,7 +36,7 @@ export default function Sobre() {
                 </a>
               </li>
               <li data-aos="fade-up" className="py-2">
-                Trabalho:
+                Trabalho: 
                 <a
                   href={newLocal}
                   target="_blank"
