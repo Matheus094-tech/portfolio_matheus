@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="footer">
       <Container>
         <Row>
-          <Col md="3">
+          <Col md="12">
             <div class="d-flex justify-content-center">
               <a
                 href="https://www.linkedin.com/in/matheussouzabarbosa/"
