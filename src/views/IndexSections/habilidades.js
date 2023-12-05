@@ -32,38 +32,38 @@ export default function Habilidades() {
             </div>
             <div data-aos="fade-up-right" className="mt-2 progress-container">
               <span className="progress-badge">CSS</span>
-              <Progress animated max="100" value="100">
-                <span className="progress-value">100%</span>
+              <Progress animated max="100" value="75">
+                <span className="progress-value">75%</span>
               </Progress>
             </div>
             <div data-aos="fade-up-right" className="mt-2 progress-container">
               <span className="progress-badge">Javascript</span>
-              <Progress animated max="100" value="100">
-                <span className="progress-value">100%</span>
+              <Progress animated max="100" value="60">
+                <span className="progress-value">60%</span>
               </Progress>
             </div>
             <div data-aos="fade-up-right" className="mt-2 progress-container">
               <span className="progress-badge">Java</span>
-              <Progress animated max="100" value="70">
-                <span className="progress-value">70%</span>
+              <Progress animated max="100" value="40">
+                <span className="progress-value">40%</span>
               </Progress>
             </div>
             <div data-aos="fade-up-right" className="mt-2 progress-container">
-              <span className="progress-badge">AWS</span>
-              <Progress animated max="100" value="100">
-                <span className="progress-value">100%</span>
+              <span className="progress-badge">Cloud</span>
+              <Progress animated max="100" value="55">
+                <span className="progress-value">55%</span>
               </Progress>
             </div>
             <div data-aos="fade-up-right" className="mt-2 progress-container">
               <span className="progress-badge">SQL</span>
-              <Progress animated max="100" value="95">
-                <span className="progress-value">95%</span>
+              <Progress animated max="100" value="55">
+                <span className="progress-value">55%</span>
               </Progress>
             </div>
             <div data-aos="fade-up-right" className="mt-2 progress-container">
               <span className="progress-badge">Github</span>
-              <Progress animated max="100" value="95">
-                <span className="progress-value">95%</span>
+              <Progress animated max="100" value="80">
+                <span className="progress-value">80%</span>
               </Progress>
             </div>
           </Col>
